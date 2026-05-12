@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     description:
       "Tìm và đăng ký thẻ tín dụng, vay tiền online từ các ngân hàng lớn.",
     url: "https://finlef.com",
+    images: [
+      {
+        url: "https://finlef.com/images/mo-the-tin-dung-vpbank-online.png",
+        width: 1536,
+        height: 1024,
+        alt: "FinLef – Tìm Thẻ Tín Dụng & Vay Tiền Online Phù Hợp Nhất",
+      },
+    ],
   },
 };
 

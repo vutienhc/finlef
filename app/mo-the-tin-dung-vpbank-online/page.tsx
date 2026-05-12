@@ -15,9 +15,9 @@ export const metadata: Metadata = {
       "Hoàn tiền lên đến 3%, hạn mức đến 500 triệu, duyệt trong 10 phút. Không cần đến ngân hàng!",
     images: [
       {
-        url: "https://finlef.com/og/mo-the-tin-dung-vpbank.jpg",
-        width: 1200,
-        height: 630,
+        url: "https://finlef.com/images/mo-the-tin-dung-vpbank-online.png",
+        width: 1536,
+        height: 1024,
         alt: "Mở thẻ tín dụng VPBank online",
       },
     ],
