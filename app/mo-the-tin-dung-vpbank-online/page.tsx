@@ -77,7 +77,7 @@ const jsonLdBreadcrumb = {
   ],
 };
 
-const AFFILIATE_LINK = "https://pmrevo.com/ql/SScy0FlXX";
+const AFFILIATE_LINK = "/go-vpbank";
 
 const benefits = [
   {
