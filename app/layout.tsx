@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
@@ -51,6 +52,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff"/>
       </head>
       <body className="min-h-full flex flex-col">
+        <GoogleAnalytics gaId="G-90DKWMPTE2" />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
