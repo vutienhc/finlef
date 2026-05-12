@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://finlef.com/chinh-sach-bao-mat" },
 };
 
-const UPDATED = "12/05/2025";
+const UPDATED = "12/05/2026";
 const EMAIL = "info@finlef.com";
 
 export default function PrivacyPage() {

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://finlef.com/dieu-khoan-su-dung" },
 };
 
-const UPDATED = "12/05/2025";
+const UPDATED = "12/05/2026";
 const EMAIL = "info@finlef.com";
 
 export default function TermsPage() {

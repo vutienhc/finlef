@@ -4,11 +4,11 @@ import Image from "next/image";
 import FaqAccordion from "@/components/vpbank-credit-card/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Mở Thẻ Tín Dụng VPBank Online 2025 – Duyệt Ngay Trong 10 Phút",
+  title: "Mở Thẻ Tín Dụng VPBank Online 2026 – Duyệt Ngay Trong 10 Phút",
   description:
     "Mở thẻ tín dụng VPBank online nhanh chóng, không cần đến ngân hàng. Hoàn tiền lên đến 3%, hạn mức đến 500 triệu, duyệt trong 10 phút. Miễn phí thường niên năm đầu.",
   keywords:
-    "mở thẻ tín dụng vpbank, thẻ tín dụng vpbank online, đăng ký thẻ vpbank, thẻ tín dụng vpbank 2025",
+    "mở thẻ tín dụng vpbank, thẻ tín dụng vpbank online, đăng ký thẻ vpbank, thẻ tín dụng vpbank 2026",
   openGraph: {
     title: "Mở Thẻ Tín Dụng VPBank Online – Duyệt Ngay Trong 10 Phút",
     description:
@@ -229,7 +229,7 @@ export default function MoTheTinDungVPBankPage() {
                 />
               </div>
               <span className="inline-block bg-yellow-400 text-green-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
-                Ưu đãi tháng 5/2025
+                Ưu đãi tháng 5/2026
               </span>
             </div>
             <h1 className="text-3xl lg:text-4xl font-bold leading-tight mb-4">

@@ -3,11 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "FinLef – Tìm Thẻ Tín Dụng & Vay Tiền Online Phù Hợp Nhất 2025",
+  title: "FinLef – Tìm Thẻ Tín Dụng & Vay Tiền Online Phù Hợp Nhất 2026",
   description:
     "Tìm và đăng ký thẻ tín dụng, vay tiền online từ các ngân hàng lớn. Thông tin minh bạch, duyệt nhanh, hoàn toàn trực tuyến.",
   openGraph: {
-    title: "FinLef – Tìm Thẻ Tín Dụng & Vay Tiền Online Phù Hợp Nhất 2025",
+    title: "FinLef – Tìm Thẻ Tín Dụng & Vay Tiền Online Phù Hợp Nhất 2026",
     description:
       "Tìm và đăng ký thẻ tín dụng, vay tiền online từ các ngân hàng lớn.",
     url: "https://finlef.com",
