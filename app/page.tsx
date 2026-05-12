@@ -55,8 +55,8 @@ const featuredProducts = [
     name: "Thẻ Tín Dụng VPBank",
     tag: "Duyệt 10 phút",
     tagColor: "bg-green-100 text-green-800",
-    desc: "Hoàn tiền lên đến 3%, miễn phí thường niên năm đầu, hạn mức đến 500 triệu.",
-    highlights: ["Hoàn tiền 3%", "Hạn mức 500M", "Duyệt trong 10'"],
+    desc: "Hoàn tiền lên đến 15%, miễn phí thường niên năm đầu, hạn mức đến 500 triệu.",
+    highlights: ["Hoàn tiền 15%", "Hạn mức 500M", "Duyệt trong 10'"],
     cta: "Xem chi tiết →",
   },
 ];

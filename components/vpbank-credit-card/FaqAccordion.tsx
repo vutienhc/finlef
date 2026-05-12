@@ -5,11 +5,11 @@ import { useState } from "react";
 const faqs = [
   {
     q: "Mở thẻ tín dụng VPBank online có mất phí không?",
-    a: "Hoàn toàn miễn phí khi đăng ký online. Phí thường niên được miễn hoàn toàn trong năm đầu tiên. Từ năm thứ hai, phí dao động từ 399.000 – 1.200.000 VND tùy loại thẻ, có thể được miễn nếu chi tiêu đủ điều kiện.",
+    a: "Hoàn toàn miễn phí khi đăng ký online. Phí thường niên được miễn trong năm đầu tiên. Từ năm thứ hai tùy loại thẻ, một số thẻ miễn hoàn toàn nếu đạt mức chi tiêu nhất định (ví dụ MC² miễn khi chi 50 triệu/năm).",
   },
   {
     q: "Điều kiện để mở thẻ tín dụng VPBank là gì?",
-    a: "Bạn cần đủ 18 tuổi, có CCCD/CMND hợp lệ và thu nhập ổn định từ 4 triệu VND/tháng trở lên. Một số loại thẻ cao cấp yêu cầu thu nhập cao hơn.",
+    a: "Bạn cần đủ 18 tuổi, có CCCD hợp lệ và thu nhập ổn định. Thu nhập tối thiểu từ 4,5 triệu VND/tháng tùy loại thẻ – một số thẻ như S Rewards không yêu cầu thu nhập tối thiểu. Thẻ cao cấp như Travel Miles yêu cầu từ 20 triệu VND/tháng.",
   },
   {
     q: "Bao lâu thì được duyệt thẻ?",
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Lãi suất thẻ tín dụng VPBank là bao nhiêu?",
-    a: "Lãi suất khoảng 2.99%/tháng (tương đương 35.88%/năm). Nếu thanh toán toàn bộ dư nợ trước ngày đáo hạn, bạn được miễn hoàn toàn lãi suất.",
+    a: "Lãi suất tùy loại thẻ và thời điểm. Nếu thanh toán toàn bộ dư nợ trước ngày đáo hạn, bạn được miễn hoàn toàn lãi suất – đây là cách dùng thẻ tín dụng hiệu quả nhất.",
   },
   {
     q: "Thẻ VPBank có trả góp 0% không?",

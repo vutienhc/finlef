@@ -6,13 +6,13 @@ import FaqAccordion from "@/components/vpbank-credit-card/FaqAccordion";
 export const metadata: Metadata = {
   title: "Mở Thẻ Tín Dụng VPBank Online 2026 – Duyệt Ngay Trong 10 Phút",
   description:
-    "Mở thẻ tín dụng VPBank online nhanh chóng, không cần đến ngân hàng. Hoàn tiền lên đến 3%, hạn mức đến 500 triệu, duyệt trong 10 phút. Miễn phí thường niên năm đầu.",
+    "Mở thẻ tín dụng VPBank online nhanh chóng, không cần đến ngân hàng. Hoàn tiền lên đến 15%, hạn mức đến 500 triệu, duyệt trong 10 phút. Miễn phí thường niên năm đầu.",
   keywords:
     "mở thẻ tín dụng vpbank, thẻ tín dụng vpbank online, đăng ký thẻ vpbank, thẻ tín dụng vpbank 2026",
   openGraph: {
     title: "Mở Thẻ Tín Dụng VPBank Online – Duyệt Ngay Trong 10 Phút",
     description:
-      "Hoàn tiền lên đến 3%, hạn mức đến 500 triệu, duyệt trong 10 phút. Không cần đến ngân hàng!",
+      "Hoàn tiền lên đến 15%, hạn mức đến 500 triệu, duyệt trong 10 phút. Không cần đến ngân hàng!",
     images: [
       {
         url: "https://finlef.com/images/mo-the-tin-dung-vpbank-online.png",
@@ -40,7 +40,7 @@ const jsonLdFaq = {
       name: "Mở thẻ tín dụng VPBank online có mất phí không?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hoàn toàn miễn phí khi đăng ký online. Phí thường niên miễn hoàn toàn năm đầu. Từ năm thứ hai từ 399.000 – 1.200.000 VND tùy loại thẻ.",
+        text: "Hoàn toàn miễn phí khi đăng ký online. Phí thường niên được miễn trong năm đầu. Từ năm thứ hai tùy loại thẻ, một số thẻ miễn hoàn toàn khi đạt mức chi tiêu nhất định.",
       },
     },
     {
@@ -86,7 +86,7 @@ const benefits = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
       </svg>
     ),
-    title: "Hoàn tiền lên đến 3%",
+    title: "Hoàn tiền lên đến 15%",
     desc: "Hoàn tiền tự động mỗi tháng cho các giao dịch mua sắm, ăn uống, giải trí.",
   },
   {
@@ -157,37 +157,94 @@ const steps = [
 
 const cardTypes = [
   {
-    name: "VPBank MC²",
-    tag: "Phổ biến nhất",
-    tagColor: "bg-green-700",
-    highlight: "Hoàn tiền 2% mọi giao dịch",
-    features: ["Miễn phí thường niên trọn đời nếu đủ điều kiện", "Trả góp 0% tại hàng nghìn đối tác", "Thanh toán qua Apple Pay & Google Pay"],
-    fee: "Miễn phí năm đầu",
-  },
-  {
-    name: "VPBank StepUp",
-    tag: "Hoàn tiền cao nhất",
+    name: "Mastercard StepUp",
+    tag: "Tín đồ mua sắm",
     tagColor: "bg-orange-500",
-    highlight: "Hoàn tiền đến 3% mua sắm",
-    features: ["Ưu đãi hoàn tiền theo bậc chi tiêu", "Hạn mức lên đến 500 triệu VND", "Bảo hiểm mua hàng trực tuyến"],
-    fee: "399.000 VND/năm",
+    highlight: "Hoàn tiền đến 15% giá trị giao dịch",
+    features: ["Miễn phí thường niên năm đầu", "Thu nhập từ 7 triệu/tháng", "Trả góp 0% tại hàng nghìn đối tác"],
+    fee: "Miễn năm đầu",
+    image: "/images/the-tin-dung-vpbank-mastercard-step-up.png",
   },
   {
-    name: "VPBank Platinum",
-    tag: "Hạng cao cấp",
+    name: "Mastercard VP Lady",
+    tag: "Thẻ của phái đẹp",
+    tagColor: "bg-pink-500",
+    highlight: "Hoàn tiền 15% tại làm đẹp & siêu thị",
+    features: ["Ưu đãi giáo dục, y tế, bảo hiểm", "Chăm sóc sắc đẹp & siêu thị", "Miễn phí thường niên năm đầu"],
+    fee: "Miễn năm đầu",
+    image: "/images/the-tin-dung-vpbank-mastercard-vp-lady.png",
+  },
+  {
+    name: "JCB Z",
+    tag: "Gen Z phải mở",
+    tagColor: "bg-purple-600",
+    highlight: "Thiết kế riêng cho Gen Z",
+    features: ["Thu nhập từ 4,5 triệu/tháng", "Nhiều ưu đãi cho giới trẻ", "Miễn phí thường niên năm đầu"],
+    fee: "Miễn năm đầu",
+    image: "/images/the-tin-dung-vpbank-jcb-z.png",
+  },
+  {
+    name: "Mastercard MC²",
+    tag: "Chi tiêu gia đình",
+    tagColor: "bg-green-700",
+    highlight: "Điểm thưởng không giới hạn",
+    features: ["Thêm điểm khi mua sắm siêu thị", "Miễn phí thường niên khi đạt 50 triệu/năm", "Thu nhập từ 4,5 triệu/tháng"],
+    fee: "Miễn khi chi 50 triệu/năm",
+    image: "/images/the-tin-dung-vpbank-mastercard-mc2.png",
+  },
+  {
+    name: "Mastercard Vietnam Airlines",
+    tag: "Tích dặm nhiều",
+    tagColor: "bg-blue-600",
+    highlight: "Tích dặm Bông Sen Vàng",
+    features: ["Dặm tích khi đi Vietnam Airlines", "Thu nhập từ 12 triệu/tháng", "Miễn phí thường niên năm đầu"],
+    fee: "Miễn năm đầu",
+    image: "/images/the-tin-dung-vpbank-mastercard-vietnam-airlines.png",
+  },
+  {
+    name: "Mastercard Number 1",
+    tag: "Miễn phí rút tiền ATM",
     tagColor: "bg-gray-700",
-    highlight: "Ưu đãi lounge sân bay",
-    features: ["Vào phòng chờ sân bay miễn phí", "Bảo hiểm du lịch quốc tế", "Hỗ trợ concierge 24/7"],
-    fee: "1.200.000 VND/năm",
+    highlight: "Rút tiền miễn phí tại 4.000+ ATM",
+    features: ["Miễn phí 1 triệu ATM toàn thế giới", "Thu nhập từ 4,5 triệu/tháng", "Miễn phí thường niên năm đầu"],
+    fee: "Miễn năm đầu",
+    image: "/images/the-tin-dung-vpbank-mastercard-number-1.png",
+  },
+  {
+    name: "Visa Signature Travel Miles",
+    tag: "Du lịch & Tích dặm",
+    tagColor: "bg-indigo-600",
+    highlight: "Tích dặm 300+ hãng hàng không",
+    features: ["300.000 khách sạn toàn cầu", "Thu nhập từ 20 triệu/tháng", "Miễn phí thường niên năm đầu"],
+    fee: "Miễn năm đầu",
+    image: "/images/the-tin-dung-vpbank-visa-signature-travel-miles.png",
+  },
+  {
+    name: "UnionPay FreeWays",
+    tag: "Miễn phí ngoại tệ",
+    tagColor: "bg-teal-600",
+    highlight: "Miễn 100% phí giao dịch ngoại tệ",
+    features: ["Ưu đãi đặc biệt tại Trung Quốc", "Thu nhập từ 4,5 triệu/tháng", "Miễn phí thường niên năm đầu"],
+    fee: "Miễn năm đầu",
+    image: "/images/the-tin-dung-vpbank-unionpay-freeways.png",
+  },
+  {
+    name: "Mastercard S Rewards",
+    tag: "Tín đồ Shopee",
+    tagColor: "bg-orange-600",
+    highlight: "Hoàn Shopee xu 12% tại Shopee",
+    features: ["Tối đa 400.000 xu/tháng", "Ưu đãi ShopeeFood", "Không yêu cầu thu nhập tối thiểu"],
+    fee: "Miễn năm đầu",
+    image: "/images/the-tin-dung-vpbank-mastercard-s-rewards.png",
   },
 ];
 
 const requirements = [
   "Từ 18 tuổi trở lên",
-  "Giấy tờ tùy thân còn hiệu lực",
-  "Có thu nhập ổn định hàng tháng",
+  "Giấy tờ tùy thân (CCCD) còn hiệu lực",
+  "Thu nhập từ 4,5 triệu/tháng (một số thẻ không yêu cầu thu nhập tối thiểu)",
   "Không có nợ xấu tại thời điểm đăng ký",
-  "Có địa chỉ cư trú hợp lệ",
+  "Có địa chỉ cư trú hợp lệ tại Việt Nam",
 ];
 
 export default function MoTheTinDungVPBankPage() {
@@ -237,7 +294,7 @@ export default function MoTheTinDungVPBankPage() {
             </h1>
             <p className="text-green-100 text-lg mb-6 leading-relaxed">
               Không cần đến ngân hàng. Chỉ cần CCCD, điền form online và nhận kết quả ngay.
-              Hoàn tiền lên đến 3%, hạn mức đến 500 triệu đồng.
+              Hoàn tiền lên đến 15%, hạn mức đến 500 triệu đồng.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
@@ -347,21 +404,30 @@ export default function MoTheTinDungVPBankPage() {
 
       {/* Card types */}
       <section className="bg-gray-50 py-16 px-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 text-center mb-3">
             Các Loại Thẻ Tín Dụng VPBank
           </h2>
           <p className="text-gray-500 text-center mb-10">Chọn loại thẻ phù hợp với nhu cầu của bạn</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {cardTypes.map((card) => (
-              <div key={card.name} className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-                <div className={`${card.tagColor} text-white text-xs font-bold px-4 py-2 uppercase tracking-wide`}>
-                  {card.tag}
+              <div key={card.name} className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 flex flex-col">
+                <div className="relative">
+                  <Image
+                    src={card.image}
+                    alt={card.name}
+                    width={560}
+                    height={352}
+                    className="w-full h-auto block"
+                  />
+                  <span className={`absolute bottom-3 left-3 ${card.tagColor} text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide`}>
+                    {card.tag}
+                  </span>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">{card.name}</h3>
+                <div className="p-6 flex flex-col flex-1">
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">{card.name}</h3>
                   <p className="text-green-700 font-medium text-sm mb-4">{card.highlight}</p>
-                  <ul className="space-y-2 mb-6">
+                  <ul className="space-y-2 mb-6 flex-1">
                     {card.features.map((f) => (
                       <li key={f} className="flex gap-2 text-sm text-gray-600">
                         <span className="text-green-600 shrink-0">✓</span>
