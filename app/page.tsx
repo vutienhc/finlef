@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "FinLef – Tìm Thẻ Tín Dụng & Vay Tiền Online Phù Hợp Nhất 2026",
   description:
     "Tìm và đăng ký thẻ tín dụng, vay tiền online từ các ngân hàng lớn. Thông tin minh bạch, duyệt nhanh, hoàn toàn trực tuyến.",
+  alternates: { canonical: "https://finlef.com" },
   openGraph: {
     title: "FinLef – Tìm Thẻ Tín Dụng & Vay Tiền Online Phù Hợp Nhất 2026",
     description:
