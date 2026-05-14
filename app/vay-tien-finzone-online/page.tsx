@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion, { FaqItem } from "@/components/ui/FaqAccordion";
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
       "Kết nối với 16+ đối tác tài chính. Chỉ cần CCCD, duyệt nhanh, giải ngân trong ngày.",
     images: [{ url: "https://finlef.com/images/hero-loan-doc.jpg", width: 1200, height: 630, alt: "Vay tiền FinZone" }],
     type: "website",
-    url: "https://finlef.com/vay-tien-finzone",
+    url: "https://finlef.com/vay-tien-finzone-online",
     siteName: "FinLef",
     locale: "vi_VN",
   },
-  alternates: { canonical: "https://finlef.com/vay-tien-finzone" },
+  alternates: { canonical: "https://finlef.com/vay-tien-finzone-online" },
 };
 
 const FINZONE_LINK = process.env.NEXT_PUBLIC_LINK_FINZONE ?? "https://finzone.vn/";
@@ -39,7 +39,7 @@ const jsonLdBreadcrumb = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Trang chủ", item: "https://finlef.com" },
-    { "@type": "ListItem", position: 2, name: "Vay Tiền FinZone", item: "https://finlef.com/vay-tien-finzone" },
+    { "@type": "ListItem", position: 2, name: "Vay Tiền FinZone", item: "https://finlef.com/vay-tien-finzone-online" },
   ],
 };
 
@@ -121,7 +121,7 @@ export default function VayTienFinZonePage() {
             <div className="w-full max-w-sm bg-white/15 backdrop-blur-sm border border-white/20 rounded-2xl p-6 space-y-4">
               <div className="flex items-center gap-3 mb-1">
                 <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-1.5 shrink-0">
-                  <Image src="/images/logo/vay-tien-finzone.jpg" alt="Logo FinZone" width={40} height={40} className="object-contain w-full h-full rounded-lg" />
+                  <Image src="/images/logo/vay-tien-finzone-online.jpg" alt="Logo FinZone" width={40} height={40} className="object-contain w-full h-full rounded-lg" />
                 </div>
                 <div className="font-bold text-white text-xl">FinZone</div>
               </div>

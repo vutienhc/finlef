@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion from "@/components/vaymeo/FaqAccordion";
@@ -22,12 +22,12 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
-    url: "https://finlef.com/vay-tien-meo",
+    url: "https://finlef.com/vay-tien-meo-online",
     siteName: "FinLef",
     locale: "vi_VN",
   },
   alternates: {
-    canonical: "https://finlef.com/vay-tien-meo",
+    canonical: "https://finlef.com/vay-tien-meo-online",
   },
 };
 
@@ -86,7 +86,7 @@ const jsonLdBreadcrumb = {
       "@type": "ListItem",
       position: 2,
       name: "Vay Tiền Mèo – VayMèo",
-      item: "https://finlef.com/vay-tien-meo",
+      item: "https://finlef.com/vay-tien-meo-online",
     },
   ],
 };
@@ -293,7 +293,7 @@ export default function VayTienMeoPage() {
             <div className="w-full max-w-sm bg-white/15 backdrop-blur-sm border border-white/20 rounded-2xl p-6 space-y-5">
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-1.5 shrink-0">
-                  <Image src="/images/logo/vay-tien-meo.svg" alt="Logo VayMèo" width={40} height={40} className="object-contain w-full h-full" />
+                  <Image src="/images/logo/vay-tien-meo-online.svg" alt="Logo VayMèo" width={40} height={40} className="object-contain w-full h-full" />
                 </div>
                 <div>
                   <div className="font-bold text-white text-lg leading-none">VayMèo</div>

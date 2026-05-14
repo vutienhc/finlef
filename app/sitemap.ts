@@ -1,4 +1,4 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
 
 const BASE_URL = "https://finlef.com";
 
@@ -14,13 +14,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Category pages
     {
-      url: `${BASE_URL}/the-tin-dung`,
+      url: `${BASE_URL}/mo-the-tin-dung-online`,
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/vay-tien`,
+      url: `${BASE_URL}/vay-tien-online`,
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
@@ -33,44 +33,44 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/the-tin-dung-vib`,
+      url: `${BASE_URL}/mo-the-tin-dung-vib-online`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     // Loan landing pages
     {
-      url: `${BASE_URL}/vay-tien-meo`,
+      url: `${BASE_URL}/vay-tien-meo-online`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/vay-tien-finzone`,
+      url: `${BASE_URL}/vay-tien-finzone-online`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/vay-tien-crezu`,
+      url: `${BASE_URL}/vay-tien-crezu-online`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/vay-tien-f88`,
+      url: `${BASE_URL}/vay-tien-f88-online`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/vay-tien-cashspace`,
+      url: `${BASE_URL}/vay-tien-cashspace-online`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/vay-tien-vayvnd`,
+      url: `${BASE_URL}/vay-tien-vayvnd-online`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,

@@ -1,24 +1,24 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion, { FaqItem } from "@/components/ui/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Vay Tiền F88 – Cầm Xe Máy, Ô Tô Lấy Tiền Ngay | F88.vn",
+  title: "Vay Tiền F88 – Cầm Giấy Tờ Xe, Vẫn Giữ Xe Đi Lại | F88.vn",
   description:
-    "F88 cho vay có tài sản đảm bảo – cầm xe máy, ô tô lấy tiền nhanh. Thủ tục đơn giản, giải ngân trong 2 giờ làm việc, hơn 800 chi nhánh toàn quốc. Hotline 18006388.",
+    "F88 cho vay cầm giấy tờ xe – bạn vẫn giữ xe đi lại bình thường. Thủ tục đơn giản, giải ngân trong 2 giờ làm việc, hơn 800 chi nhánh toàn quốc. Hotline 18006388.",
   keywords:
-    "vay tiền f88, f88 vn, cầm xe lấy tiền f88, vay cầm đồ f88, f88 cho vay, vay tiền mặt f88",
+    "vay tiền f88, f88 vn, cầm giấy tờ xe f88, vay cầm giấy tờ f88, f88 cho vay, vay tiền mặt f88",
   openGraph: {
-    title: "F88 – Vay Có Tài Sản Đảm Bảo | Cầm Xe Máy, Ô Tô Lấy Tiền Ngay",
-    description: "Cầm xe máy, ô tô lấy tiền nhanh tại F88. Thủ tục đơn giản, giải ngân trong 2 giờ, 800+ chi nhánh.",
+    title: "F88 – Cầm Giấy Tờ Xe Lấy Tiền Ngay | Vẫn Giữ Xe Đi Lại",
+    description: "Cầm giấy tờ xe máy, ô tô lấy tiền nhanh tại F88 – không cần giao xe. Thủ tục đơn giản, giải ngân trong 2 giờ, 800+ chi nhánh.",
     images: [{ url: "https://finlef.com/images/hero-loan-doc.jpg", width: 1200, height: 630, alt: "Vay tiền F88" }],
     type: "website",
-    url: "https://finlef.com/vay-tien-f88",
+    url: "https://finlef.com/vay-tien-f88-online",
     siteName: "FinLef",
     locale: "vi_VN",
   },
-  alternates: { canonical: "https://finlef.com/vay-tien-f88" },
+  alternates: { canonical: "https://finlef.com/vay-tien-f88-online" },
 };
 
 const F88_LINK = process.env.NEXT_PUBLIC_LINK_F88 ?? "https://f88.vn/";
@@ -27,8 +27,8 @@ const jsonLdFaq = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "F88 cho vay loại hình nào?", acceptedAnswer: { "@type": "Answer", text: "F88 chuyên cho vay có tài sản đảm bảo: cầm xe máy, cầm ô tô. Ngoài ra còn có một số gói vay tín chấp tùy chi nhánh." } },
-    { "@type": "Question", name: "Cần giấy tờ gì để vay tại F88?", acceptedAnswer: { "@type": "Answer", text: "Cần CCCD/CMND của chủ xe và giấy tờ xe đứng tên chính chủ (đăng ký xe, cà vẹt). Xe phải không có tranh chấp, thế chấp ngân hàng." } },
+    { "@type": "Question", name: "F88 cho vay loại hình nào?", acceptedAnswer: { "@type": "Answer", text: "F88 chuyên cho vay cầm giấy tờ xe: giấy tờ xe máy và giấy tờ ô tô. Bạn vẫn giữ xe đi lại bình thường trong suốt thời gian vay. Ngoài ra còn có một số gói vay tín chấp tùy chi nhánh." } },
+    { "@type": "Question", name: "Cần giấy tờ gì để vay tại F88?", acceptedAnswer: { "@type": "Answer", text: "Cần CCCD/CMND của chủ xe và giấy đăng ký xe (cà vẹt) đứng tên chính chủ. F88 giữ giấy tờ xe, bạn vẫn giữ xe đi lại. Xe phải không có tranh chấp, không đang thế chấp ngân hàng." } },
     { "@type": "Question", name: "Tiền được giải ngân bao lâu sau khi duyệt?", acceptedAnswer: { "@type": "Answer", text: "F88 cam kết liên hệ trong vòng 2 giờ làm việc sau khi nhận đăng ký. Giải ngân ngay tại chi nhánh sau khi hoàn tất thủ tục." } },
   ],
 };
@@ -38,15 +38,15 @@ const jsonLdBreadcrumb = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Trang chủ", item: "https://finlef.com" },
-    { "@type": "ListItem", position: 2, name: "Vay Tiền F88", item: "https://finlef.com/vay-tien-f88" },
+    { "@type": "ListItem", position: 2, name: "Vay Tiền F88", item: "https://finlef.com/vay-tien-f88-online" },
   ],
 };
 
 const faqs: FaqItem[] = [
-  { q: "F88 cho vay loại hình nào?", a: "F88 chuyên cho vay có tài sản đảm bảo: cầm xe máy, cầm ô tô lấy tiền mặt. Ngoài ra còn có một số gói vay tín chấp tùy chi nhánh và khu vực." },
+  { q: "F88 cho vay loại hình nào?", a: "F88 chuyên cho vay cầm giấy tờ xe (xe máy, ô tô). Bạn chỉ cần nộp giấy đăng ký xe, vẫn giữ xe đi lại bình thường. Ngoài ra còn có một số gói vay tín chấp tùy chi nhánh và khu vực." },
   { q: "Cần giấy tờ gì để vay tại F88?", a: "Cần CCCD/CMND của chủ xe và giấy tờ xe đứng tên chính chủ (đăng ký xe/cà vẹt). Xe phải không có tranh chấp, không đang thế chấp tại ngân hàng." },
   { q: "Tiền được giải ngân bao lâu?", a: "F88 cam kết liên hệ trong vòng 2 giờ làm việc sau khi nhận đăng ký online. Giải ngân tiền mặt ngay tại chi nhánh sau khi hoàn tất thủ tục kiểm tra xe và ký hợp đồng." },
-  { q: "Tôi có được giữ xe trong thời gian vay không?", a: "Tùy gói vay: một số gói F88 cho phép bạn tiếp tục sử dụng xe, một số gói yêu cầu gửi xe tại chi nhánh. Nhân viên F88 sẽ tư vấn cụ thể theo nhu cầu." },
+  { q: "Vay tại F88 có phải giao xe không?", a: "Không. F88 chỉ giữ giấy tờ xe (giấy đăng ký xe/cà vẹt), bạn vẫn giữ xe đi lại bình thường trong suốt thời gian vay. Đây là điểm khác biệt so với cầm đồ truyền thống." },
   { q: "F88 có bao nhiêu chi nhánh?", a: "F88 có hơn 800 chi nhánh trên toàn quốc, phủ khắp các tỉnh thành. Bạn có thể tìm chi nhánh gần nhất trên website f88.vn." },
   { q: "Hotline hỗ trợ của F88 là bao nhiêu?", a: "Hotline F88: 18006388 (miễn phí cuộc gọi). Hỗ trợ trong giờ làm việc để tư vấn và hướng dẫn thủ tục vay." },
   { q: "Vay tại F88 có an toàn không?", a: "F88 là công ty tài chính được cấp phép hoạt động hợp pháp tại Việt Nam, hoạt động minh bạch theo quy định pháp luật. Toàn bộ hợp đồng vay được ký kết rõ ràng, đầy đủ điều khoản." },
@@ -54,7 +54,7 @@ const faqs: FaqItem[] = [
 ];
 
 const benefits = [
-  { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" /></svg>, title: "Cầm xe máy & ô tô", desc: "Sử dụng xe máy hoặc ô tô như tài sản đảm bảo để vay tiền mặt nhanh với thủ tục đơn giản." },
+  { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" /></svg>, title: "Cầm giấy tờ xe, giữ xe đi lại", desc: "Chỉ nộp giấy đăng ký xe (cà vẹt), bạn vẫn dùng xe bình thường. Không phải giao xe như cầm đồ truyền thống." },
   { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>, title: "Giải ngân trong 2 giờ", desc: "Sau khi đăng ký, F88 liên hệ và hướng dẫn trong vòng 2 giờ làm việc. Nhận tiền ngay tại chi nhánh." },
   { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>, title: "800+ chi nhánh", desc: "Mạng lưới hơn 800 chi nhánh F88 trên toàn quốc, dễ dàng tìm điểm giao dịch gần nhất." },
   { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" /></svg>, title: "Thủ tục đơn giản", desc: "Chỉ cần CCCD và giấy tờ xe đứng tên chính chủ. Không cần sao kê lương hay chứng minh thu nhập." },
@@ -88,11 +88,11 @@ export default function VayTienF88Page() {
         <div className="max-w-5xl mx-auto px-4 py-14 lg:py-20 grid lg:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="text-3xl lg:text-4xl font-bold leading-tight mb-4">
-              F88 – Cầm Xe Máy, Ô Tô Lấy Tiền Ngay | Giải Ngân Trong 2 Giờ
+              F88 – Cầm Giấy Tờ Xe, Vẫn Giữ Xe Đi Lại | Giải Ngân Trong 2 Giờ
             </h1>
             <p className="text-green-100 text-lg mb-6 leading-relaxed">
-              F88 cho vay có tài sản đảm bảo với thủ tục nhanh gọn nhất. Chỉ cần CCCD và giấy tờ xe,
-              nhận tiền ngay tại <strong className="text-white">800+ chi nhánh</strong> trên toàn quốc.
+              F88 cho vay cầm giấy tờ xe – bạn chỉ nộp giấy đăng ký xe, <strong className="text-white">vẫn giữ xe đi lại bình thường</strong>.
+              Nhận tiền ngay tại <strong className="text-white">800+ chi nhánh</strong> trên toàn quốc.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a rel="nofollow" href={F88_LINK} target="_blank" className="inline-block bg-white hover:bg-green-50 text-[#00844a] font-bold text-center px-8 py-4 rounded-xl text-md transition-colors shadow-lg">
@@ -102,14 +102,14 @@ export default function VayTienF88Page() {
                 Xem Quy Trình
               </a>
             </div>
-            <p className="text-green-200 text-sm mt-4">✓ Giải ngân 2 giờ &nbsp;·&nbsp; ✓ Chỉ cần CCCD + giấy tờ xe &nbsp;·&nbsp; ✓ 800+ chi nhánh</p>
+            <p className="text-green-200 text-sm mt-4">✓ Giải ngân 2 giờ &nbsp;·&nbsp; ✓ Giữ xe đi lại bình thường &nbsp;·&nbsp; ✓ 800+ chi nhánh</p>
           </div>
 
           <div className="flex justify-center lg:justify-end">
             <div className="w-full max-w-sm bg-white/15 backdrop-blur-sm border border-white/20 rounded-2xl p-6 space-y-4">
               <div className="flex items-center gap-3 mb-1">
                 <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-1.5 shrink-0">
-                  <Image src="/images/logo/vay-tien-f88.svg" alt="Logo F88" width={40} height={40} className="object-contain w-full h-full" />
+                  <Image src="/images/logo/vay-tien-f88-online.svg" alt="Logo F88" width={40} height={40} className="object-contain w-full h-full" />
                 </div>
                 <div className="font-bold text-white text-xl">F88</div>
               </div>
@@ -117,8 +117,8 @@ export default function VayTienF88Page() {
                 {[
                   { val: "2 giờ", label: "Thời gian giải ngân" },
                   { val: "800+", label: "Chi nhánh toàn quốc" },
-                  { val: "Xe máy", label: "Cầm xe lấy tiền" },
-                  { val: "Ô tô", label: "Cầm ô tô lấy tiền" },
+                  { val: "Xe máy", label: "Cầm giấy tờ xe máy" },
+                  { val: "Ô tô", label: "Cầm giấy tờ ô tô" },
                 ].map((s) => (
                   <div key={s.label} className="bg-white/20 rounded-xl p-4">
                     <div className="text-xl font-bold text-white">{s.val}</div>
@@ -136,10 +136,10 @@ export default function VayTienF88Page() {
       <section className="bg-white border-y border-gray-100 py-8 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-5 gap-6">
           {[
-            { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7"><path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" /></svg>, label: "Cầm xe máy & ô tô", sub: "Tài sản đảm bảo" },
+            { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7"><path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" /></svg>, label: "Cầm giấy tờ xe", sub: "Vẫn giữ xe đi lại" },
             { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>, label: "Trong 2 giờ", sub: "Liên hệ & giải ngân" },
             { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7"><path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>, label: "800+ chi nhánh", sub: "Toàn quốc" },
-            { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" /></svg>, label: "Chỉ cần CCCD + xe", sub: "Thủ tục đơn giản" },
+            { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" /></svg>, label: "CCCD + giấy tờ xe", sub: "Thủ tục đơn giản" },
             { icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" /></svg>, label: "Pháp lý rõ ràng", sub: "Được cấp phép" },
           ].map((item) => (
             <div key={item.label} className="flex flex-col items-center text-center gap-2">
@@ -216,7 +216,7 @@ export default function VayTienF88Page() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 text-center mb-3">Câu Hỏi Thường Gặp</h2>
-          <p className="text-gray-500 text-center mb-10">Giải đáp thắc mắc về vay tiền cầm xe tại F88</p>
+          <p className="text-gray-500 text-center mb-10">Giải đáp thắc mắc về vay cầm giấy tờ xe tại F88</p>
           <FaqAccordion faqs={faqs} accentColor="green" />
         </div>
       </section>

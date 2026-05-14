@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion, { FaqItem } from "@/components/ui/FaqAccordion";
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
-    url: "https://finlef.com/the-tin-dung-vib",
+    url: "https://finlef.com/mo-the-tin-dung-vib-online",
     siteName: "FinLef",
     locale: "vi_VN",
   },
-  alternates: { canonical: "https://finlef.com/the-tin-dung-vib" },
+  alternates: { canonical: "https://finlef.com/mo-the-tin-dung-vib-online" },
 };
 
 const VIB_LINK = process.env.NEXT_PUBLIC_LINK_VIB ?? "https://www.vib.com.vn/vn/the-tin-dung";
@@ -75,7 +75,7 @@ const jsonLdBreadcrumb = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Trang chủ", item: "https://finlef.com" },
-    { "@type": "ListItem", position: 2, name: "Mở thẻ tín dụng VIB online", item: "https://finlef.com/the-tin-dung-vib" },
+    { "@type": "ListItem", position: 2, name: "Mở thẻ tín dụng VIB online", item: "https://finlef.com/mo-the-tin-dung-vib-online" },
   ],
 };
 

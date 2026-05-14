@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     title: "So Sánh Thẻ Tín Dụng 2026 | FinLef",
     description:
       "Hoàn tiền đến 15%, trả góp 0%, hạn mức đến 500 triệu. Chọn và đăng ký thẻ tín dụng ngay.",
-    url: "https://finlef.com/the-tin-dung",
+    url: "https://finlef.com/mo-the-tin-dung-online",
     type: "website",
     siteName: "FinLef",
     locale: "vi_VN",
   },
-  alternates: { canonical: "https://finlef.com/the-tin-dung" },
+  alternates: { canonical: "https://finlef.com/mo-the-tin-dung-online" },
 };
 
 const jsonLdItemList = {
@@ -36,7 +36,7 @@ const jsonLdItemList = {
       "@type": "ListItem",
       position: 2,
       name: "Thẻ Tín Dụng VIB",
-      url: "https://finlef.com/the-tin-dung-vib",
+      url: "https://finlef.com/mo-the-tin-dung-vib-online",
     },
   ],
 };
@@ -50,7 +50,7 @@ const jsonLdBreadcrumb = {
       "@type": "ListItem",
       position: 2,
       name: "Thẻ tín dụng",
-      item: "https://finlef.com/the-tin-dung",
+      item: "https://finlef.com/mo-the-tin-dung-online",
     },
   ],
 };
@@ -78,7 +78,7 @@ const cards = [
     badgeBg: "bg-green-600",
   },
   {
-    href: "/the-tin-dung-vib",
+    href: "/mo-the-tin-dung-vib-online",
     bank: "VIB",
     name: "Thẻ Tín Dụng VIB",
     logo: "/images/logo/vib.png",

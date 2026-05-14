@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion, { FaqItem } from "@/components/ui/FaqAccordion";
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     description: "Tỷ lệ duyệt 97%, 312.000 khách hàng hài lòng, giải ngân trong 15 phút. Miễn phí 100%.",
     images: [{ url: "https://finlef.com/images/hero-loan-form.jpg", width: 1200, height: 630, alt: "Vay tiền CashSpace" }],
     type: "website",
-    url: "https://finlef.com/vay-tien-cashspace",
+    url: "https://finlef.com/vay-tien-cashspace-online",
     siteName: "FinLef",
     locale: "vi_VN",
   },
-  alternates: { canonical: "https://finlef.com/vay-tien-cashspace" },
+  alternates: { canonical: "https://finlef.com/vay-tien-cashspace-online" },
 };
 
 const CASHSPACE_LINK = process.env.NEXT_PUBLIC_LINK_CASHSPACE ?? "https://cashspace.vn/";
@@ -38,7 +38,7 @@ const jsonLdBreadcrumb = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Trang chủ", item: "https://finlef.com" },
-    { "@type": "ListItem", position: 2, name: "Vay Tiền CashSpace", item: "https://finlef.com/vay-tien-cashspace" },
+    { "@type": "ListItem", position: 2, name: "Vay Tiền CashSpace", item: "https://finlef.com/vay-tien-cashspace-online" },
   ],
 };
 

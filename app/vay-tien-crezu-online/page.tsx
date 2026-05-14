@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion, { FaqItem } from "@/components/ui/FaqAccordion";
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     description: "68 đối tác cho vay, tỷ lệ duyệt 95%, nhận đề xuất trong 7 phút. Miễn phí, bảo mật SSL.",
     images: [{ url: "https://finlef.com/images/hero-vaymeo.jpg", width: 1200, height: 630, alt: "Vay tiền Crezu" }],
     type: "website",
-    url: "https://finlef.com/vay-tien-crezu",
+    url: "https://finlef.com/vay-tien-crezu-online",
     siteName: "FinLef",
     locale: "vi_VN",
   },
-  alternates: { canonical: "https://finlef.com/vay-tien-crezu" },
+  alternates: { canonical: "https://finlef.com/vay-tien-crezu-online" },
 };
 
 const CREZU_LINK = process.env.NEXT_PUBLIC_LINK_CREZU ?? "https://crezu.vn/";
@@ -38,7 +38,7 @@ const jsonLdBreadcrumb = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Trang chủ", item: "https://finlef.com" },
-    { "@type": "ListItem", position: 2, name: "Vay Tiền Crezu", item: "https://finlef.com/vay-tien-crezu" },
+    { "@type": "ListItem", position: 2, name: "Vay Tiền Crezu", item: "https://finlef.com/vay-tien-crezu-online" },
   ],
 };
 
@@ -119,7 +119,7 @@ export default function VayTienCrezuPage() {
             <div className="w-full max-w-sm bg-white/15 backdrop-blur-sm border border-white/20 rounded-2xl p-6 space-y-4">
               <div className="flex items-center gap-3 mb-1">
                 <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-1.5 shrink-0">
-                  <Image src="/images/logo/vay-tien-crezu.svg" alt="Logo Crezu" width={40} height={40} className="object-contain w-full h-full" />
+                  <Image src="/images/logo/vay-tien-crezu-online.svg" alt="Logo Crezu" width={40} height={40} className="object-contain w-full h-full" />
                 </div>
                 <div className="font-bold text-white text-xl">Crezu</div>
               </div>

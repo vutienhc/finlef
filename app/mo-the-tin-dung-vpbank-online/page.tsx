@@ -371,7 +371,7 @@ export default function MoTheTinDungVPBankPage() {
       />
 
       {/* Breadcrumb */}
-      {/* <nav className="bg-gray-50 border-b border-gray-100 text-sm py-3 px-4">
+      {/* <nav className="bg-gray-50 border-b border-gray-100 text-sm py-3 px-4">h
         <div className="max-w-5xl mx-auto flex gap-2 text-gray-500">
           <Link href="/" className="hover:text-green-700">Trang chủ</Link>
           <span>/</span>
