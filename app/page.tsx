@@ -57,6 +57,84 @@ const featuredProducts = [
     tagColor: "bg-green-100 text-green-800",
     desc: "Hoàn tiền lên đến 15%, miễn phí thường niên năm đầu, hạn mức đến 500 triệu.",
     highlights: ["Hoàn tiền 15%", "Hạn mức 500M", "Duyệt trong 10'"],
+    logo: "/images/Logo-VPBank.webp",
+    cta: "Xem chi tiết →",
+  },
+  {
+    href: "/the-tin-dung-vib",
+    bank: "VIB",
+    name: "Thẻ Tín Dụng VIB",
+    tag: "Duyệt 30 phút",
+    tagColor: "bg-purple-100 text-purple-800",
+    desc: "Hoàn tiền lên đến 6%, trả góp 0% lãi suất, hạn mức đến 200 triệu. 6 dòng thẻ đa dạng.",
+    highlights: ["Hoàn tiền 6%", "Hạn mức 200M", "Apple Pay"],
+    logo: "/images/logo/vib.png",
+    cta: "Xem chi tiết →",
+  },
+  {
+    href: "/vay-tien-meo",
+    bank: "VayMèo",
+    name: "Vay Tiền Mèo – VayMèo",
+    tag: "Nhận đề xuất 1 click",
+    tagColor: "bg-orange-100 text-orange-700",
+    desc: "Kết nối với đối tác tài chính uy tín. Vay từ 500K đến 30 triệu, duyệt nhanh, miễn phí hoàn toàn.",
+    highlights: ["500K – 30 triệu", "Lãi từ 0%", "Miễn phí 100%"],
+    logo: "/images/logo/vay-tien-meo.svg",
+    cta: "Xem chi tiết →",
+  },
+  {
+    href: "/vay-tien-finzone",
+    bank: "FinZone",
+    name: "Vay Tiền FinZone",
+    tag: "AI khớp vay",
+    tagColor: "bg-blue-100 text-blue-700",
+    desc: "Vay tín chấp 5–90 triệu, lãi từ 1.67%/tháng. Công nghệ AI kết nối với 16+ ngân hàng uy tín.",
+    highlights: ["5 – 90 triệu", "Lãi từ 1.67%/tháng", "16+ đối tác"],
+    logo: "/images/logo/vay-tien-finzone.jpg",
+    cta: "Xem chi tiết →",
+  },
+  {
+    href: "/vay-tien-crezu",
+    bank: "Crezu",
+    name: "Vay Tiền Crezu",
+    tag: "Đề xuất trong 7 phút",
+    tagColor: "bg-sky-100 text-sky-700",
+    desc: "68 đối tác tài chính, tỷ lệ duyệt 95%, đề xuất trong 7 phút. Bảo mật SSL 256-bit.",
+    highlights: ["500K – 20 triệu", "95% tỷ lệ duyệt", "7 phút nhận đề xuất"],
+    logo: "/images/logo/vay-tien-crezu.svg",
+    cta: "Xem chi tiết →",
+  },
+  {
+    href: "/vay-tien-f88",
+    bank: "F88",
+    name: "Vay Tiền F88 – Cầm Xe",
+    tag: "Cầm xe lấy tiền ngay",
+    tagColor: "bg-orange-100 text-orange-700",
+    desc: "Cầm xe máy, ô tô lấy tiền nhanh. 800+ chi nhánh toàn quốc, giải ngân trong 2 giờ làm việc.",
+    highlights: ["Cầm xe máy & ô tô", "800+ chi nhánh", "Giải ngân 2 giờ"],
+    logo: "/images/logo/vay-tien-f88.svg",
+    cta: "Xem chi tiết →",
+  },
+  {
+    href: "/vay-tien-cashspace",
+    bank: "CashSpace",
+    name: "Vay Tiền CashSpace",
+    tag: "97% tỷ lệ duyệt",
+    tagColor: "bg-teal-100 text-teal-700",
+    desc: "Vay siêu nhanh từ đối tác, tỷ lệ duyệt 97%, giải ngân 15 phút. Phù hợp mọi đối tượng.",
+    highlights: ["500K – 20 triệu", "97% được duyệt", "Giải ngân 15 phút"],
+    logo: "/images/logo/vay-tien-cash-space.svg",
+    cta: "Xem chi tiết →",
+  },
+  {
+    href: "/vay-tien-vayvnd",
+    bank: "VayVND",
+    name: "Vay Tiền VayVND",
+    tag: "Giải ngân 5–10 phút",
+    tagColor: "bg-green-100 text-green-700",
+    desc: "Vay trả góp online không thế chấp, giải ngân 5–10 phút. 550.000+ khách hàng thành công.",
+    highlights: ["Không thế chấp", "550K+ khách hàng", "Giải ngân 5–10 phút"],
+    logo: "/images/logo/vay-tien-vayvnd.svg",
     cta: "Xem chi tiết →",
   },
 ];
@@ -66,17 +144,17 @@ const categories = [
     icon: "💳",
     title: "Thẻ tín dụng",
     desc: "Tìm hiểu và đăng ký thẻ tín dụng từ VPBank, Techcombank, MB Bank và nhiều ngân hàng khác.",
-    href: "/mo-the-tin-dung-vpbank-online",
-    count: "1 sản phẩm",
+    href: "/the-tin-dung",
+    count: "2 sản phẩm",
     active: true,
   },
   {
-    icon: "🏦",
+    icon: "💸",
     title: "Vay tiền online",
-    desc: "Vay tiêu dùng, vay tín chấp lên đến 500 triệu, không cần tài sản thế chấp.",
+    desc: "Kết nối với đối tác tài chính uy tín. Vay từ 500K đến 90 triệu, duyệt nhanh, miễn phí.",
     href: "/vay-tien",
-    count: "Sắp ra mắt",
-    active: false,
+    count: "6 sản phẩm",
+    active: true,
   }
 ];
 
@@ -199,13 +277,19 @@ export default function HomePage() {
                 className="bg-white rounded-2xl border border-gray-100 p-6 flex flex-col sm:flex-row sm:items-center gap-4 shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="w-14 h-14 bg-white rounded-xl flex items-center justify-center shrink-0 border border-gray-100 overflow-hidden p-1">
-                  <Image
-                    src="/images/Logo-VPBank.webp"
-                    alt={`Logo ${p.bank}`}
-                    width={48}
-                    height={48}
-                    className="object-contain w-full h-full"
-                  />
+                  {p.logo ? (
+                    <Image
+                      src={p.logo}
+                      alt={`Logo ${p.bank}`}
+                      width={48}
+                      height={48}
+                      className="object-contain w-full h-full"
+                    />
+                  ) : (p as {logoText?: string; logoColor?: string}).logoText ? (
+                    <span className={`text-sm font-bold px-2 py-1 rounded-lg ${(p as {logoText?: string; logoColor?: string}).logoColor}`}>
+                      {(p as {logoText?: string; logoColor?: string}).logoText}
+                    </span>
+                  ) : null}
                 </div>
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-2 mb-1">

@@ -82,7 +82,7 @@ const jsonLdBreadcrumb = {
   ],
 };
 
-const AFFILIATE_LINK = "https://pmrevo.com/ql?pm_cid=edd67ae14baa425c902c";
+const AFFILIATE_LINK = process.env.NEXT_PUBLIC_LINK_VPBANK ?? "https://pmrevo.com/ql?pm_cid=edd67ae14baa425c902c";
 
 const benefits = [
   {

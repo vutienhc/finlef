@@ -2,9 +2,16 @@
 import Image from "next/image";
 
 const productLinks = [
-  { href: "/mo-the-tin-dung-vpbank-online", label: "Thẻ tín dụng VPBank" },
-  // { href: "/the-tin-dung", label: "Tất cả thẻ tín dụng" },
-  // { href: "/vay-tien", label: "Vay tiền online" },
+  { href: "/the-tin-dung", label: "Thẻ tín dụng (tất cả)" },
+  { href: "/mo-the-tin-dung-vpbank-online", label: "↳ Thẻ tín dụng VPBank" },
+  { href: "/the-tin-dung-vib", label: "↳ Thẻ tín dụng VIB" },
+  { href: "/vay-tien", label: "Vay tiền online (tất cả)" },
+  { href: "/vay-tien-meo", label: "↳ Vay Tiền – VayMèo" },
+  { href: "/vay-tien-finzone", label: "↳ Vay Tiền – FinZone" },
+  { href: "/vay-tien-crezu", label: "↳ Vay Tiền – Crezu" },
+  { href: "/vay-tien-f88", label: "↳ Vay Tiền – F88" },
+  { href: "/vay-tien-cashspace", label: "↳ Vay Tiền – CashSpace" },
+  { href: "/vay-tien-vayvnd", label: "↳ Vay Tiền – VayVND" },
 ];
 
 const companyLinks = [

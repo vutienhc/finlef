@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const links = [
   { href: "/", label: "Trang chủ" },
-  // { href: "/the-tin-dung", label: "Thẻ tín dụng" },
-  // { href: "/vay-tien", label: "Vay tiền" },
+  { href: "/the-tin-dung", label: "Thẻ tín dụng" },
+  { href: "/vay-tien", label: "Vay tiền" },
   { href: "/gioi-thieu", label: "Giới thiệu" },
   { href: "/lien-he", label: "Liên hệ" },
 ];

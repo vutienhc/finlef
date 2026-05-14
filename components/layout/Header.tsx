@@ -3,8 +3,8 @@ import Image from "next/image";
 import MobileNav from "./MobileNav";
 
 const navLinks = [
-  // { href: "/the-tin-dung", label: "Thẻ tín dụng" },
-  // { href: "/vay-tien", label: "Vay tiền" },
+  { href: "/the-tin-dung", label: "Thẻ tín dụng" },
+  { href: "/vay-tien", label: "Vay tiền" },
   { href: "/gioi-thieu", label: "Giới thiệu" },
   { href: "/lien-he", label: "Liên hệ" },
 ];
